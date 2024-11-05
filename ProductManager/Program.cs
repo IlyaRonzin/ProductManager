@@ -210,7 +210,7 @@ public class Program
         while (true)
         {
             Console.Write(message);
-            if (int.TryParse(Console.ReadLine(), out result))
+            if (int.TryParse(Console.ReadLine(), out result) && result >= 0)
             {
                 break;
             }
